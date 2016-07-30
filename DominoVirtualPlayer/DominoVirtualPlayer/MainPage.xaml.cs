@@ -25,6 +25,8 @@ namespace DominoVirtualPlayer
         public MainPage()
         {
             this.InitializeComponent();
+
+            var t = "Hello Git!";
         }
     }
 }
