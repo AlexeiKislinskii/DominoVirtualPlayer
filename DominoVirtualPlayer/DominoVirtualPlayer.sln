@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DominoVirtualPlayer", "DominoVirtualPlayer\DominoVirtualPlayer.csproj", "{FB3772DC-28BC-40F9-BC07-896170996537}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BonesAnalyzer", "BonesAnalyzer\BonesAnalyzer.vcxproj", "{3734633F-B4C9-4369-AE20-95AC627A71AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -33,6 +35,18 @@ Global
 		{FB3772DC-28BC-40F9-BC07-896170996537}.Release|x86.ActiveCfg = Release|x86
 		{FB3772DC-28BC-40F9-BC07-896170996537}.Release|x86.Build.0 = Release|x86
 		{FB3772DC-28BC-40F9-BC07-896170996537}.Release|x86.Deploy.0 = Release|x86
+		{3734633F-B4C9-4369-AE20-95AC627A71AD}.Debug|ARM.ActiveCfg = Debug|ARM
+		{3734633F-B4C9-4369-AE20-95AC627A71AD}.Debug|ARM.Build.0 = Debug|ARM
+		{3734633F-B4C9-4369-AE20-95AC627A71AD}.Debug|x64.ActiveCfg = Debug|x64
+		{3734633F-B4C9-4369-AE20-95AC627A71AD}.Debug|x64.Build.0 = Debug|x64
+		{3734633F-B4C9-4369-AE20-95AC627A71AD}.Debug|x86.ActiveCfg = Debug|Win32
+		{3734633F-B4C9-4369-AE20-95AC627A71AD}.Debug|x86.Build.0 = Debug|Win32
+		{3734633F-B4C9-4369-AE20-95AC627A71AD}.Release|ARM.ActiveCfg = Release|ARM
+		{3734633F-B4C9-4369-AE20-95AC627A71AD}.Release|ARM.Build.0 = Release|ARM
+		{3734633F-B4C9-4369-AE20-95AC627A71AD}.Release|x64.ActiveCfg = Release|x64
+		{3734633F-B4C9-4369-AE20-95AC627A71AD}.Release|x64.Build.0 = Release|x64
+		{3734633F-B4C9-4369-AE20-95AC627A71AD}.Release|x86.ActiveCfg = Release|Win32
+		{3734633F-B4C9-4369-AE20-95AC627A71AD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
