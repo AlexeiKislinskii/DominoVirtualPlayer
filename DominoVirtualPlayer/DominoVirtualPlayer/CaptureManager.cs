@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Windows.Devices.Enumeration;
 using Windows.Media.Capture;
+using Windows.Media.Effects;
 using Windows.System.Display;
 using Windows.UI.Xaml.Controls;
 // ReSharper disable ArrangeThisQualifier
@@ -73,6 +74,8 @@ namespace DominoVirtualPlayer
                 // If initialization succeeded, start the preview
                 if (_isInitialized)
                 {
+                    var videoEffect = new VideoEffectDefinition("BonesAnalyzer.CaptureEffect");
+                    await this._mediaCapture.AddVideoEffectAsync(videoEffect, MediaStreamType.VideoPreview);
                     await StartPreviewAsync();
                 }
             }
