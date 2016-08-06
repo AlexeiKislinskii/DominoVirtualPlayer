@@ -224,7 +224,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AI.h" />
     <ClInclude Include="CaptureEffect.h" />
+    <ClInclude Include="DominoStruct.h" />
     <ClInclude Include="OpenCVdir\include\opencv2\calib3d.hpp" />
     <ClInclude Include="OpenCVdir\include\opencv2\calib3d\calib3d.hpp" />
     <ClInclude Include="OpenCVdir\include\opencv2\calib3d\calib3d_c.h" />
@@ -428,6 +430,7 @@
     <ClInclude Include="OpenCVdir\include\opencv\ml.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AI.cpp" />
     <ClCompile Include="CaptureEffect.cpp" />
   </ItemGroup>
   <ItemGroup>

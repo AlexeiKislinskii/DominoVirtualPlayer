@@ -3,6 +3,7 @@
 #include <ppltasks.h>
 #include "MemoryBuffer.h"
 #include "Robuffer.h"
+#include "AI.h"
 
 #include <opencv2/opencv.hpp>
 

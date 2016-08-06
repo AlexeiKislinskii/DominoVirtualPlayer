@@ -26,9 +26,20 @@ void CaptureEffect::SetProperties(IPropertySet ^ configuration)
 void CaptureEffect::ProcessFrame(ProcessVideoFrameContext^ context)
 {
 	//convert from SoftwareBitmap to Mat
-	cv::Mat cvFrame = this->Convert(context->InputFrame->SoftwareBitmap);
+	//cv::Mat cvFrame = this->Convert(context->InputFrame->SoftwareBitmap);
 
-	int stop = 24;
+    auto andrejaLogic = new AI();
+
+	andrejaLogic->NewDomino(1, 9);
+	andrejaLogic->NewDomino(2, 8);
+	andrejaLogic->NewDomino(3, 7);
+	andrejaLogic->NewDomino(4, 6);
+	andrejaLogic->NewDomino(5, 5);
+	andrejaLogic->NewDomino(6, 4);
+	andrejaLogic->NewDomino(7, 3);
+	andrejaLogic->NewDomino(8, 2);
+	andrejaLogic->NewDomino(9, 1);
+	andrejaLogic->NewDomino(0, 0);
 }
 
 cv::Mat CaptureEffect::Convert(SoftwareBitmap^ from)

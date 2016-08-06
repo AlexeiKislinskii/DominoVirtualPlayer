@@ -8,9 +8,13 @@
     <Filter Include="OpenCV">
       <UniqueIdentifier>{0720a25b-426b-4742-a028-e7730377b31d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{4ea99be4-2f0b-4f80-9d4e-ad94feb96c92}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CaptureEffect.cpp" />
+    <ClCompile Include="AI.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CaptureEffect.h" />
@@ -616,6 +620,10 @@
     </ClInclude>
     <ClInclude Include="OpenCVdir\include\opencv2\videostab\wobble_suppression.hpp">
       <Filter>OpenCV</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.h" />
+    <ClInclude Include="DominoStruct.h">
+      <Filter>Models</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
