@@ -1,19 +1,27 @@
 #pragma once
 namespace BonesAnalyzer
 {
-	struct Domino
+	ref struct Domino
 	{
 		Domino(unsigned int left, unsigned int right)
 		{
-			this->Left = left;
-			this->Right = right;
+			this->m_Left = left;
+			this->m_Right = right;
 		};
 
-		unsigned int GetLeft() const { return this->Left; }
-		unsigned int GetRight() const { return this->Right; }
+
+		property int Left
+		{
+			int get() { return this->m_Left; }
+		}
+
+		property int Right
+		{
+			int get() { return this->m_Right; }
+		}
 
 	private:
-		unsigned int Left, Right;
+		unsigned int m_Left, m_Right;
 	};
 }
 
